@@ -56,3 +56,6 @@ test('Convertir 2 a romano', () => {
   test('Convertir 40 a romano', () => {
     expect(convertirARomano(40)).toBe('XL');
   });
+  test('Convertir 50 a romano', () => {
+    expect(convertirARomano(50)).toBe('L');
+  });
