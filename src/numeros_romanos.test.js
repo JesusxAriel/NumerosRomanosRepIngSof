@@ -27,3 +27,7 @@ test('Convertir 2 a romano', () => {
   test('Convertir 7 a romano', () => {
     expect(convertirARomano(7)).toBe('VII');
   });
+
+  test('Convertir 8 a romano', () => {
+    expect(convertirARomano(8)).toBe('VIII');
+  });
