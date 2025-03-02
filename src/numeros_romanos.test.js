@@ -83,3 +83,6 @@ test('Convertir 2 a romano', () => {
   test('Convertir 350 a romano', () => {
     expect(convertirARomano(350)).toBe('CCCL');
   });
+  test('Convertir 400 a romano', () => {
+    expect(convertirARomano(400)).toBe('CD');
+  });
