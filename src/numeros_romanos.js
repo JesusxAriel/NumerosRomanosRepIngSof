@@ -1,7 +1,17 @@
 function convertirARomano(numero) {
-    if (numero === 1) return 'I';
-    if (numero === 2) return 'II';
-    if (numero === 3) return 'III';
+    const valores = [
+        { valor: 4, simbolo: 'IV' }, 
+        { valor: 1, simbolo: 'I' },
+      ];
+    
+      let resultado = '';
+      for (const { valor, simbolo } of valores) {
+        while (numero >= valor) {
+          resultado += simbolo;
+          numero -= valor;
+        }
+      }
+      return resultado;
   }
   
   
