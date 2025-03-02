@@ -38,3 +38,21 @@ test('Convertir 2 a romano', () => {
   test('Convertir 10 a romano', () => {
     expect(convertirARomano(10)).toBe('X');
   });
+  test('Convertir 13 a romano', () => {
+    expect(convertirARomano(13)).toBe('XIII');
+  });
+  test('Convertir 14 a romano', () => {
+    expect(convertirARomano(14)).toBe('XIV');
+  });
+  test('Convertir 18 a romano', () => {
+    expect(convertirARomano(18)).toBe('XVIII');
+  });
+  test('Convertir 25 a romano', () => {
+    expect(convertirARomano(25)).toBe('XXV');
+  });
+  test('Convertir 39 a romano', () => {
+    expect(convertirARomano(39)).toBe('XXXIX');
+  });
+  test('Convertir 40 a romano', () => {
+    expect(convertirARomano(40)).toBe('XL');
+  });
