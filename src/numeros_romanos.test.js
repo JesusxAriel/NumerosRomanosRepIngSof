@@ -65,3 +65,6 @@ test('Convertir 2 a romano', () => {
   test('Convertir 90 a romano', () => {
     expect(convertirARomano(90)).toBe('XC');
   });
+  test('Convertir 100 a romano', () => {
+    expect(convertirARomano(100)).toBe('C');
+  });
